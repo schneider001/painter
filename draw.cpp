@@ -412,9 +412,9 @@ int main() {
 	manager.add(new FunctionalButton({   0,  0 }, { 100,  50 }, "open",  open_image));
 	manager.add(new FunctionalButton({ 100,  0 }, { 200,  50 }, "save",  save_image));
 	manager.add(new FunctionalButton({ 100, 50 }, { 200, 100 }, "exit",  exit_from_program));
-	manager.add(new FunctionalButton({ 1020,20 }, { 1120,80 }, "clear", clear ));
+	manager.add(new FunctionalButton({ 1020,20 }, { 1120,80 }, "clear",  clear ));
 	manager.add(new FunctionalButton({   0, 50 }, { 50,  100 }, "<<",    ctlr_z));
-	manager.add(new FunctionalButton({	50, 50 }, { 100, 100 }, ">>",    ctlr_y));
+	manager.add(new FunctionalButton({  50, 50 }, { 100, 100 }, ">>",    ctlr_y));
 
 	manager.add(new InstrumentalButton({ 260, 10 }, { 290, 40 }, pencil,         "pencil.bmp" ));
 	manager.add(new InstrumentalButton({ 290, 10 }, { 320, 40 }, spray,          "spray.bmp"  ));
